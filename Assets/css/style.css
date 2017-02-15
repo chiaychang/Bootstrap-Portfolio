@@ -1,0 +1,117 @@
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+  line-height: 30px;
+  background: url("../images/snow.jpg");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2 {
+	color: #4aaaa5;
+}
+
+.navbar {
+	height: 80px;
+	border-bottom: 2px solid #cccccc;
+}
+
+.navbar-right {
+	margin-right: 10%;
+}
+
+.navbar-default .navbar-brand {
+color: #fff;
+background-color: #4aaaa5;
+height: 80px;
+font-size: 37px;
+padding-top: 30px;	
+}
+
+
+
+
+#myNavbar {
+	font-size: 17px;
+	padding-top: 15px;
+
+}
+
+#profile {
+	max-height: 270px;
+	max-width: 270px;
+	border-radius: 40%;
+	float: left;
+	margin-right: 15px;
+}
+
+#profile:hover {
+	border-radius: 100%;
+	transition: 1.2s;
+}
+
+.col-md-7 {
+	padding: 3% 4% 9% 4%;
+	background-color: #fff;
+	color: #777777;
+	border: 1px #cccccc solid;
+}
+
+.col-md-4 {
+	padding: 3% 5% 5% 5%;
+	background-color: #fff;
+	color: #777777;
+	border: 1px #cccccc solid;
+}
+.social {
+	max-height: 85px;
+	max-width: 85px;
+	display: inline-block; 
+}
+
+.footer {
+	background-color: #666666;
+	font-color: #ffffff;
+	margin-top: 40px;
+	padding-top: 20px;
+	border-top: 10px #4aaaa5 solid; 
+	height: 100px;
+	clear: both;
+}
+
+#footertext {
+	color: #fff;
+	margin-top: 12px;
+}
+
+.col-md-7 .img-responsive {
+	float: left;
+	height: 220px;
+	width: 290px;
+    padding:10px;
+}
+
+.col-md-7 button {
+	background-color: #4aaaa5; 
+    width: 271px;
+    height: 40px;
+    border-style: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    z-index: 999;
+    color: #eeeeee;
+    margin-top: 138;
+    margin-left: -281;
+    float: left;
+}
+.col-md-7 button:hover {
+	color: hotpink;
+
+}
+
+#formbtn {
+	margin:10px 0px 0px 0px;
+}
